@@ -63,7 +63,7 @@ const Cart = () => {
 
             <div className="cart_body">
               {cartQuantity === 0 ? (
-                <h2>Cart is emptyy</h2>
+                <h2>Cart is empty</h2>
               ) : (
                 cartItems.map((item) => {
                   const { id, img, title, price, quantity } = item;
